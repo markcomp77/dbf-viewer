@@ -1,0 +1,15 @@
+
+#### `.gitignore`
+```gitignore
+# Ignoruj pliki tymczasowe
+*.pyc
+__pycache__/
+*.log
+
+# Ignoruj wyeksportowane pliki
+DATA/*.csv
+DATA/*.xlsx
+
+# Ignoruj Bazy DBF,wszystko co jest w DATA
+DATA/*.dbf
+DATA/*.*
